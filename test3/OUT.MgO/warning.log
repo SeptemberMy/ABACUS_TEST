@@ -1,0 +1,17 @@
+ AUTO_SET ks_solver to cg
+ smearing_decision  warning : Fixed occupations,gauss broadening ignored
+ AUTO_SET gaussian_parameter to 0
+ In SCAN_BEGIN, can't find: LATTICE_PARAMETERS block.
+ AUTO_SET NBANDS to 42
+                            startmag_type = 2
+                       charge from rho_at = 9.9346
+                         charge should be = 10
+                       charge from rho_at = 5.99905
+                         charge should be = 6
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 64
+           total electron number from rho = 64
+                                should be = 64
+                 charge before normalized = 63.9999999999995
+                  charge after normalized = 64.0000000000004

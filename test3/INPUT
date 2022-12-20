@@ -1,0 +1,9 @@
+INPUT_PARAMETERS
+suffix                  MgO
+ntype                   2
+pseudo_dir              ./
+ecutwfc                 100             # Rydberg
+scf_thr                 1e-4		# Rydberg
+basis_type              pw              # changes the type of basis set
+calculation             scf		# this is the key parameter telling abacus to do a scf calculation
+

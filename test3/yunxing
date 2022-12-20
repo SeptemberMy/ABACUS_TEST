@@ -1,0 +1,2 @@
+docker run -v /home/my/ABACUS_test/test3:/home/my/ABACUS_test/test3 -w /home/my/ABACUS_test/test3  abacus_3.0.4
+

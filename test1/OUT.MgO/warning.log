@@ -1,0 +1,34 @@
+ AUTO_SET ks_solver to genelpa
+ Input  warning : gamma_only_local algorithm is not used.
+ AUTO_SET lcao_ecut to 100
+ smearing_decision  warning : Fixed occupations,gauss broadening ignored
+ AUTO_SET gaussian_parameter to 0
+ In SCAN_BEGIN, can't find: LATTICE_PARAMETERS block.
+ AUTO_SET NBANDS to 0
+ AUTO_SET NBANDS to 42
+      Processor           Atom
+              1             44
+                            startmag_type = 2
+                       charge from rho_at = 9.9346
+                         charge should be = 10
+                       charge from rho_at = 5.99905
+                         charge should be = 6
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 64
+           total electron number from rho = 64
+                                should be = 64
+                 charge before normalized = 63.9999999999993
+                  charge after normalized = 64.0000000000001
+                 charge before normalized = 64.0000298084156
+                  charge after normalized = 64.0000000000054
+                 charge before normalized = 64.000078672892
+                  charge after normalized = 63.9999999999837
+                 charge before normalized = 64.0000534392399
+                  charge after normalized = 64.0000000000034
+                 charge before normalized = 64.0000518121763
+                  charge after normalized = 63.9999999999923
+                 charge before normalized = 64.0000513717488
+                  charge after normalized = 63.9999999999998
+                 charge before normalized = 64.0000514076665
+                  charge after normalized = 63.9999999999991

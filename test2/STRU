@@ -1,0 +1,36 @@
+#This is the atom file containing all the information
+#about the lattice structure.
+
+ATOMIC_SPECIES
+Mg 24.305  Mg_ONCV_PBE-1.0.upf  # element name, atomic mass, pseudopotential file
+O  15.999 O_ONCV_PBE-1.0.upf
+
+NUMERICAL_ORBITAL
+Mg_gga_8au_100Ry_4s2p1d.orb
+O_gga_7au_100Ry_2s2p1d.orb
+
+LATTICE_CONSTANT
+1.8897259886 		# 1.8897259886 Bohr =  1.0 Angstrom
+
+LATTICE_VECTORS
+4.25648 0.00000 0.00000  
+0.00000 4.25648 0.00000
+0.00000 0.00000 4.25648
+
+ATOMIC_POSITIONS
+Direct                  #Cartesian(Unit is LATTICE_CONSTANT)
+Mg                      #Name of element        
+0.0                     #Magnetic for this element.
+4                       #Number of atoms
+0.0  0.0  0.0  0 0 0    #x,y,z, move_x, move_y, move_z
+0.0  0.5  0.5  0 0 0    #x,y,z, move_x, move_y, move_z
+0.5  0.0  0.5  0 0 0    #x,y,z, move_x, move_y, move_z
+0.5  0.5  0.0  0 0 0    #x,y,z, move_x, move_y, move_z
+O                       #Name of element        
+0.0                     #Magnetic for this element.
+4                       #Number of atoms
+0.5  0.0  0.0  0 0 0    #x,y,z, move_x, move_y, move_z
+0.5  0.5  0.5  0 0 0    #x,y,z, move_x, move_y, move_z
+0.0  0.0  0.5  0 0 0    #x,y,z, move_x, move_y, move_z
+0.0  0.5  0.0  0 0 0    #x,y,z, move_x, move_y, move_z
+

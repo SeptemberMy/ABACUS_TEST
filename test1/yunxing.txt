@@ -1,0 +1,3 @@
+docker run -v /home/my/ABACUS_test/test:/home/my/ABACUS_test/test -w /home/my/ABACUS_test/test   ghcr.io/deepmodeling/abacus
+
+
